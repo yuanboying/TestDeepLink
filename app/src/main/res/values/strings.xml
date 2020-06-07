@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestDeepLink</string>
+    <string name="text_add_deep_link_button">Add DeepLink</string>
+    <string name="text_add_and_fire_deep_link_button">Add and Fire DeepLink</string>
+    <string name="hint_add_deep_link">deep link url</string>
+    <string name="hint_deep_link_description">description</string>
+    <string name="label_item_removed">Item was removed from the list.</string>
+    <string name="label_undo">UNDO</string>
+    <string name="label_delete">Deleted</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/deepLinkCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="2dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackground">
+
+            <TextView
+                android:id="@+id/deepLinkUrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="bytest://settings"
+
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"/>
+
+            <TextView
+                android:id="@+id/deepLinkDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="open settings screen"
+                android:textColor="@color/warm_grey"
+                android:textSize="13sp"
+                android:layout_marginStart="26dp"
+                android:layout_marginEnd="26dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</merge>
